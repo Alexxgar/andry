@@ -120,5 +120,6 @@ if "get" in st.session_state:
                        f"{(g_carbs + g_prot + g_lipidos):.2f} g"],
             "Kcal": [f"{cal_carbs:.2f} kcal", f"{cal_prot:.2f} kcal", f"{cal_lipidos:.2f} kcal",
                      f"{st.session_state['get']:.2f} kcal"],
-            "Porcentaje": [f"{porc_carbs}%", f"{porc_prot}%", f"{porc_lipidos}%", "100%"]
+            "Porcentaje": [f"{porc_carbs}%", f"{porc_prot}%", f"{porc_lipidos}%", "100%"],
+            "Gramos por kg de peso": [f"{g_carbs / peso:.2f} g/kg", f"{g_prot / peso:.2f} g/kg", f"{g_lipidos / peso:.2f} g/kg", "-"]
         })
