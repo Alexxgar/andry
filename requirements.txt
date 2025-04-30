@@ -1,5 +1,5 @@
 streamlit
-pywhatkit
+
 pandas
 pyautogui
 pyperclip
@@ -12,3 +12,4 @@ flask
 beautifulsoup4
 soupsieve
 Werkzeug
+twilio
