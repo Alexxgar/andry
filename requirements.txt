@@ -1,0 +1,14 @@
+streamlit
+pywhatkit
+pandas
+pyautogui
+pyperclip
+wikipedia
+pygetwindow
+pyscreeze
+mouseinfo
+itsdangerous
+flask
+beautifulsoup4
+soupsieve
+Werkzeug
